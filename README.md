@@ -5,3 +5,4 @@ My noob attempts to write some ml algorithms from nothing but numpy and scipy, g
 ## Completed:
 - k means clustering
 - GDA (Gaussian discriminant analysis)
+- logistic regression
