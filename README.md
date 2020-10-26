@@ -4,3 +4,4 @@ My noob attempts to write all the ml algorithms I've learned about from nothing 
 
 ## Completed:
 - k means clustering
+- GDA (Gaussian discriminant analysis)
