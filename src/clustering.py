@@ -38,8 +38,8 @@ class K_means_cluster:
         # list of distances from c1 and c2
         d_c1 = np.linalg.norm(self.data-self.c1, axis=1)
         d_c2 = np.linalg.norm(self.data-self.c2, axis=1)
-
-        self.clss = [int(i<j) for i,j in zip(d_c1,d_c2)]
+        
+        self.clss = d_c1<d_c2
 
     # calculate new centroids
     def new_c(self):
